@@ -1,0 +1,12 @@
+READ a
+LOADI r1 #1
+LOADI r2 #2
+LOADI r3 #97
+ADD r4 r2 r3
+ADD r5 r1 r4
+LOADI r6 #5
+MUL r7 r5 r6
+LOADI r8 #8
+SUB r9 r7 r8
+STORE b r9
+WRITE b
